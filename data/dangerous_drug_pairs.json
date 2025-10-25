@@ -1,0 +1,60 @@
+{
+  "known_dangerous_pairs": [
+    {
+      "drug1": "warfarin",
+      "drug2": "aspirin",
+  "severity": "HIGH",
+  "reason": "Both anticoagulants - severe bleeding risk",
+  "source": "FDA Label / Clinical guidance",
+  "evidence_link": "https://www.fda.gov/warfarin-aspirin-evidence"
+    },
+    {
+      "drug1": "metformin",
+      "drug2": "alcohol",
+  "severity": "HIGH",
+  "reason": "Risk of lactic acidosis",
+  "source": "FDA Label",
+  "evidence_link": "https://www.fda.gov/metformin-alcohol-lactic-acidosis"
+    },
+    {
+      "drug1": "ibuprofen",
+      "drug2": "warfarin",
+  "severity": "HIGH",
+  "reason": "NSAID increases bleeding risk",
+  "source": "Clinical guidance",
+  "evidence_link": "https://www.example.org/ibuprofen-warfarin"
+    },
+    {
+      "drug1": "lisinopril",
+      "drug2": "potassium",
+  "severity": "MEDIUM",
+  "reason": "Hyperkalemia risk - monitor K+ levels",
+  "source": "Drug monograph",
+  "evidence_link": "https://www.example.org/lisinopril-potassium"
+    },
+    {
+      "drug1": "amlodipine",
+      "drug2": "grapefruit",
+  "severity": "MEDIUM",
+  "reason": "Grapefruit increases drug levels",
+  "source": "Clinical pharmacology",
+  "evidence_link": "https://www.example.org/amlodipine-grapefruit"
+    }
+  ],
+  "known_safe_pairs": [
+    {
+      "drug1": "metformin",
+      "drug2": "lisinopril",
+  "reason": "Different mechanism - safe together",
+  "source": "Clinical guidance",
+  "evidence_link": "https://www.example.org/metformin-lisinopril"
+    },
+    {
+      "drug1": "aspirin",
+      "drug2": "acetaminophen",
+  "reason": "Common combination - safe if dosed properly",
+  "source": "Clinical guidance",
+  "evidence_link": "https://www.example.org/aspirin-acetaminophen"
+    }
+  ]
+}

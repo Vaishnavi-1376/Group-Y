@@ -1,0 +1,144 @@
+{
+  "test_queries": [
+    {
+      "id": 1,
+      "query": "What is metformin used for?",
+      "expected_drug": "metformin",
+      "category": "basic_info",
+      "expected_keywords": ["diabetes", "blood sugar", "type 2"]
+    },
+    {
+      "id": 2,
+      "query": "Tell me about lisinopril",
+      "expected_drug": "lisinopril",
+      "category": "basic_info",
+      "expected_keywords": ["blood pressure", "hypertension"]
+    },
+    {
+      "id": 3,
+      "query": "What does atorvastatin treat?",
+      "expected_drug": "atorvastatin",
+      "category": "basic_info",
+      "expected_keywords": ["cholesterol", "statin"]
+    },
+    {
+      "id": 4,
+      "query": "What is aspirin used for?",
+      "expected_drug": "aspirin",
+      "category": "basic_info",
+      "expected_keywords": ["pain", "fever", "blood clots"]
+    },
+    {
+      "id": 5,
+      "query": "Tell me about ibuprofen",
+      "expected_drug": "ibuprofen",
+      "category": "basic_info",
+      "expected_keywords": ["pain", "inflammation"]
+    },
+    {
+      "id": 6,
+      "query": "What is warfarin used for?",
+      "expected_drug": "warfarin",
+      "category": "basic_info",
+      "expected_keywords": ["anticoagulant", "blood clots"]
+    },
+    {
+      "id": 7,
+      "query": "Explain omeprazole",
+      "expected_drug": "omeprazole",
+      "category": "basic_info",
+      "expected_keywords": ["acid", "reflux", "PPI"]
+    },
+    {
+      "id": 8,
+      "query": "What does levothyroxine do?",
+      "expected_drug": "levothyroxine",
+      "category": "basic_info",
+      "expected_keywords": ["thyroid", "hypothyroidism"]
+    },
+    {
+      "id": 9,
+      "query": "Tell me about amlodipine",
+      "expected_drug": "amlodipine",
+      "category": "basic_info",
+      "expected_keywords": ["blood pressure", "calcium channel"]
+    },
+    {
+      "id": 10,
+      "query": "What is metoprolol used for?",
+      "expected_drug": "metoprolol",
+      "category": "basic_info",
+      "expected_keywords": ["blood pressure", "beta blocker"]
+    },
+    {
+      "id": 11,
+      "query": "Can I take warfarin with aspirin?",
+      "expected_drug": "warfarin",
+      "category": "interaction",
+      "expected_keywords": ["dangerous", "bleeding", "not recommended"]
+    },
+    {
+      "id": 12,
+      "query": "Is it safe to combine ibuprofen and lisinopril?",
+      "expected_drug": "ibuprofen",
+      "category": "interaction",
+      "expected_keywords": ["caution", "interaction"]
+    },
+    {
+      "id": 13,
+      "query": "What happens if I take metformin with alcohol?",
+      "expected_drug": "metformin",
+      "category": "interaction",
+      "expected_keywords": ["risk", "lactic acidosis"]
+    },
+    {
+      "id": 14,
+      "query": "Can NSAIDs be taken with anticoagulants?",
+      "expected_drug": null,
+      "category": "interaction",
+      "expected_keywords": ["bleeding", "risk"]
+    },
+    {
+      "id": 15,
+      "query": "What is the typical dosage of metformin?",
+      "expected_drug": "metformin",
+      "category": "dosage",
+      "expected_keywords": ["500", "dosage", "maximum"]
+    },
+    {
+      "id": 16,
+      "query": "How much lisinopril should I take?",
+      "expected_drug": "lisinopril",
+      "category": "dosage",
+      "expected_keywords": ["dosage", "dose"]
+    },
+    {
+      "id": 17,
+      "query": "What is the maximum daily dose of aspirin?",
+      "expected_drug": "aspirin",
+      "category": "dosage",
+      "expected_keywords": ["maximum", "4000"]
+    },
+    {
+      "id": 18,
+      "query": "Tell me about FakeDrug9999",
+      "expected_drug": null,
+      "category": "edge_case",
+      "expected_keywords": ["not found", "not specified"]
+    },
+    {
+      "id": 19,
+      "query": "Is metformin used to cure cancer?",
+      "expected_drug": "metformin",
+      "category": "edge_case",
+      "expected_keywords": ["not specified"]
+    },
+    {
+      "id": 20,
+      "query": "Is metformin safe during pregnancy?",
+      "expected_drug": "metformin",
+      "category": "edge_case",
+      "expected_keywords": ["consult", "doctor"]
+    }
+  ]
+}
